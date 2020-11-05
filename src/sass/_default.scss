@@ -1,0 +1,36 @@
+@import './foundation/mixin';
+@import './foundation/variable';
+@import './foundation/code';
+@import './foundation/default';
+@import './foundation/datatable';
+@import './foundation/layout';
+@import './foundation/antdlayout';
+/// Navbar 
+
+@import './views/navbar/navbar.scss';
+
+/// home
+
+@import './views/home/home.scss';
+
+@import './views/about/about.scss';
+
+@import './views/contact/contact.scss';
+
+@import './views/login/login.scss';
+
+@import './views/courses/courses.scss';
+
+@import './views/courseshow/courseshow.scss';
+
+@import './views/doctor/doctor.scss';
+
+@import './views/management/manage.scss';
+
+@import './views/lecture/lecture.scss';
+
+@import './views/collage/collage.scss';
+
+@import './views/profile/profile.scss';
+
+@import './views/footer/footer.scss';

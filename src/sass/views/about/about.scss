@@ -1,0 +1,130 @@
+.mission_content {
+    background: #f1f0f0;
+    padding: 100px 0 60px;
+    .mission_content_image {
+        position: relative;
+        margin-top: 20px;
+        min-height: 200px;
+        overflow: hidden;
+        border-radius: 20px 0;
+        img {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: $main-color-hover;
+            opacity: .8;
+        }
+    }
+    .mission_content_details {
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+        transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-box-shadow .3s;
+        padding: 60px 40px 40px;
+        h2 {
+            font-size: 25px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin: 10px 0;
+            text-align: center;
+            span {
+                &:last-child {
+                    color: $main-color;
+                    margin-left:10px;
+                }
+            }
+        }
+        p {
+            margin-top: 40px;
+            font-size: 13px;
+            opacity: .8;
+            text-align: center;
+        }
+    }
+}
+
+///// Teams
+.meet_team {
+    padding: 50px 0;
+    background-color: #fff;
+    position: relative;
+    .meet_team_header {
+        font-size: 19px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin: 30px 0;
+        text-align: center;
+        span {
+            color: $main-color;
+            padding: 0 5px;
+            text-transform: capitalize;
+        }
+    }
+    .instr_body {
+        height: 318px;
+        margin-top: 60px;
+        -webkit-box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        border-radius: 20px 0;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+        background: #f1f0f0;
+        .instr_image {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border-radius: 50%;
+            border: 2px solid $main-color;
+            overflow: hidden;
+            -webkit-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            &:hover {
+                .overlay_social {
+                    a {
+                        height: 50%;
+                    }
+                }
+            }
+            img {
+                background-size: cover;
+                width: 100%;
+                min-height: 150px;
+            }
+            .overlay_social {
+                a {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background: $main-color-hover;
+                    width: 100%;
+                    height: 0%;
+                    text-align: center;
+                    line-height: 46px;
+                    color: #fff;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    font-size: 16px;
+                    color: #fff;
+                }
+            }
+        }
+        .instr_name {
+            padding: 20px 0 10px;
+            color: $main-color;
+            line-height: normal;
+        }
+        .instr_title {
+            font-size: 13px;
+            color: gray;
+            line-height: normal;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Departments":[
+        {
+            "id" :1,
+            "image" :"./images/Departments/cs.jpg",
+            "title" :"CS",
+            "description" :"Programming"
+        },
+        {
+            "id" :2,
+            "image" :"./images/Departments/it.jpg",
+            "title" :"IT",
+            "description" :"Network"
+        },
+        {
+            "id" :3,
+            "image" :"./images/Departments/is.jpg",
+            "title" :"IS",
+            "description" :"Database"
+        },
+        {
+            "id" :4,
+            "image" :"./images/Departments/ds.jpg",
+            "title" :"DS",
+            "description" :"desgggg suppotr"
+        }
+
+    ],
+    "StudentCourse" :[
+        {
+            "id":1,
+            "doctorImage" :"./images/Doctor/img2.jpg",
+            "courseName" :"ITI Security",
+            "courseDescription" :" Computer security focus on ensuring the availability and correct operation of a compute  system Deals with security  ",
+            "doctorName" :" Walid kider "
+        },
+        {
+            "id":2,
+            "doctorImage" :"./images/Doctor/img1.jpg",
+            "courseName" :"ITI Cloud Services",
+            "courseDescription" :" Cloud object Computer security focus on ensuring the availability Computer security Computer security focus on ",
+            "doctorName" :" Ehab Roshdy "
+        },
+        {
+            "id":3,
+            "doctorImage" :"./images/Doctor/img5.jpg",
+            "courseName" :"IOT ",
+            "courseDescription" :" The interface is the combination of hardware and software needed to link the CPU to the peripherals link the CPU to the peripherals ",
+            "doctorName" :" Marowa Mahmoud "
+        }
+    ],
+    "Team":[
+        {
+            "id":1,
+            "image": "./images/team/img-1.jpg",
+            "name" :"Mohamed Nasrallh",
+            "job" :"Front-End developer"
+        },
+        {
+            "id":2,
+            "image": "./images/team/img-2.jpg",
+            "name" :"Mahmoud Adelazime",
+            "job" :"Backe-End developer"
+        },
+        {
+            "id":3,
+            "image": "./images/team/img-3.jpg",
+            "name" :"Mohamed Osama",
+            "job" :"IOS developer"
+        },
+        {
+            "id":4,
+            "image": "./images/team/img-4.jpg",
+            "name" :"Mohamed Tohamy",
+            "job" :"analysis"
+        }
+    ]
+
+    
+}

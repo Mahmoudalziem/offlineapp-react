@@ -1,0 +1,144 @@
+.quiz-container{
+    .nav-buttons{
+        ul{
+            font-size: 14px;
+            border: 0;
+            border-bottom: 1px solid $main-color;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            li{
+                background: $main-color;
+                text-align: center;
+                border: 1px solid #fff;
+                overflow: hidden;
+                border-bottom: 0;
+                color: #fff;
+                border-width:1px 1px 0 1px;
+                border-color:$main-color;
+                border-style:solid;
+                 a {
+                    background: transparent;
+                    border: 0;
+                    color: #fff;
+                    padding: 8px 40px;
+                    display: block;
+                    border-radius: 0;
+                    border-right: 0;
+                }
+            }
+        }
+    }
+
+    .quiz-container-content{
+        background: #fff;
+        text-align: center;
+        &>div {
+            padding: 0;
+            margin: 0;
+            background: transparent;
+            min-height: auto;
+            overflow: hidden;
+            padding: 20px;
+            min-height: 250px;
+            border: 1px solid #7c3390;
+            border-top: 0;
+
+            .upload-quiz{
+                border: 2px dotted #ccc;
+                border-radius: 20px;
+                min-height: 200px;
+                p{
+                    &:first-child{
+                        margin-top: 80px;
+                        font-size: 15px;
+                        color: $main-color;
+                    }
+                    &:nth-child(2) {
+                        color: #fff;
+                        background: #7c3390;
+                        padding: 10px;
+                        border-radius: 20px;
+                        margin: 50px 50px 9px;
+                    }
+                }
+            }
+
+            .add-quiz{
+                form{
+                    text-align: center;
+                    padding: 50px;
+                    .question_parent{
+                        input {
+                            width: 100%;
+                            border: 1px solid $main-color;
+                            font-size: 14px;
+                            padding-left: 10px;
+                            border-radius: 20px;
+                            height: 40px;
+                        }
+                    }
+                    ul{
+                        margin-top: 10px;
+                        padding:0;
+                        li {
+                            display: -webkit-box;
+                            display: -ms-flexbox;
+                            display: flex;
+                            margin-top: 10px;
+                            .answer_checkbox {
+                                width: 40px;
+                                height: 40px;
+                                border: 1px solid $main-color;
+                                background: $main-color;
+                                text-align: center;
+                                line-height:40px;
+                            }
+                            input {
+                                width: 100%;
+                                border: 1px solid $main-color;
+                                font-size: 14px;
+                                padding-left: 10px;
+                                border-radius: 0 20px 20px 0;
+                            }
+
+                            a {
+                                width: 40px;
+                                height: 35px;
+                                line-height: 35px;
+                                border-radius: 50%;
+                                border: 1px solid $main-color;
+                                background: #fff;
+                                display: inline-block;
+                                font-weight: 500;
+                                cursor: pointer;
+                                font-size: 14px;
+                                color:$main-color;
+                                margin-left: 10px;
+                                margin-top: 5px;
+                                &:hover{
+                                    background:$main-color;
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+
+                    input[type="submit"]{
+                        border:1px solid $main-color;
+                        margin-top:20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .quiz-upload-container{
+        background: #fff;
+        padding: 20px;
+        margin-top: 40px;
+        min-height: 300px;
+        border: 1px solid $main-color;
+        position: relative;
+    }
+}

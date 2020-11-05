@@ -1,0 +1,42 @@
+.home-footer {
+    position: relative;
+    text-align: center;
+    background: $main-color;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    .footer-social {
+        .info-social {
+            display: flex;
+            li {
+                width: 20px;
+                margin-left: 10px;
+                &:first-child {
+                    a {
+                        color: #000;
+                    }
+                }
+                &:hover {
+                    a {
+                        color: $main-color-hover;
+                    }
+                }
+                a {
+                    color: #fff;
+                    display: block;
+                }
+            }
+        }
+    }
+    .footer-reserved {
+        font-size: 13px;
+        opacity: .8;
+    }
+    .footer-back {
+        cursor: pointer;
+        font-size: 13px;
+        text-transform: capitalize;
+        opacity: .8;
+    }
+}

@@ -1,0 +1,82 @@
+.years-section {
+    position:relative;
+    padding: 80px 0;
+    background-image:url('../../../assets/images/parallax/paralla1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    &:after{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background: $main-parallex;
+        z-index:0;
+    }
+    .nav {
+        position:relative;
+        z-index:1;
+        border: 1px solid #fff;
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: $main-color;
+        .nav-item {
+            padding: 0;
+            border: 1px solid #fff;
+            a {
+                padding: 10px;
+                border: 0 !important;
+                border-radius: 0 !important;
+                color: #fff;
+                text-transform: capitalize;
+                font-size: 14px;
+                &:hover,
+                &:focus {
+                    border: 0;
+                }
+                &.active {
+                    color: $main-color;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+    .tab-content {
+        position:relative;
+        z-index:1;
+        padding: 80px 20px;
+        background-color: #fff;
+        border-top: 1px solid $main-color;
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.1);
+        color: #000;
+        div {
+            text-align: center;
+            p{
+                padding:0 40px;
+                opacity: .6;
+                font-size:13px;
+                font-weight:600;
+                text-align: center;
+                line-height: 30px;
+            }
+            ul{
+                margin-top:30px;
+                text-align:left;
+                li{
+                    display:inline-block;
+                    padding:10px 20px;
+                    background:$main-color;
+                    margin:10px;
+                    color:#fff;
+                    font-size:13px;
+                    border-radius:20px;
+                }
+            }
+        }
+    }
+}
